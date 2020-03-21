@@ -1,0 +1,23 @@
+{
+  "name": "tdd-ts-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "chokidar \"./**/*\" -c \"tsd && echo done\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webpapaya/tdd-ts-types.git"
+  },
+  "author": "Thomas Mayrhofer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webpapaya/tdd-ts-types/issues"
+  },
+  "homepage": "https://github.com/webpapaya/tdd-ts-types#readme",
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "tsd": "^0.11.0"
+  }
+}
